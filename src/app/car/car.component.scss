@@ -1,0 +1,38 @@
+.car {
+    width: 400px;
+    margin: 4px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    &:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .model {
+        display: flex;
+        font-weight: bold;
+        color: #3F51B5;
+        padding: 10px;
+    }
+    .info {
+        font-weight: bold;
+        padding: 10px;
+        p {
+            font-weight: 100;
+        }
+    }
+    .btn {
+        padding: 10px;
+        background: #3F51B5;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: sans-serif;
+        color: white;
+        margin: 10px;
+        &:hover {box-shadow: 0 0 10px rgb(5, 65, 95);
+            
+        }
+    }
+    .visible {
+        
+    }
+}

@@ -1,0 +1,14 @@
+.fulltext {
+    width: 400px;
+    margin: 4px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .info {
+        font-weight: bold;
+        padding: 10px;
+    }
+}

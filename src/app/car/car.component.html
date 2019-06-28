@@ -1,0 +1,11 @@
+<div class="car" *ngFor='let item of cars'>
+    <div class="model">car model: 
+        <div class="">{{item.name}}</div> 
+    </div>
+    <div class="info">information about cars:
+        <p>
+            {{item.info | slice:0:140}}...
+       </p>
+    </div>
+    <div class="btn" (click)="open(item)">More:</div>
+</div>
